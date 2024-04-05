@@ -1,5 +1,11 @@
 import { boolean, pgTable, timestamp, varchar } from 'drizzle-orm/pg-core';
 
+// example first schema for your application
+
+/*
+  
+*/
+
 export const users = pgTable('users', {
   id: varchar('id').primaryKey(),
   email: varchar('email').notNull(),
